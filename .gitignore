@@ -1,0 +1,4 @@
+/public/images/
+/public/scaled-images
+*.log
+node_modules/

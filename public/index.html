@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Turquoise October</title>
+      <meta name="description" content="Turquoise October is Eddy's photography website">
+      <meta name="keywords" content="Turquoise October, design, photography">
+      <meta name="author" content="Edson Velasco Schwartz">
+      <link rel="canonical" href="https://turquoiseoctober.com">
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="images/Favicon.png">
+      <script src="code.js" defer></script>
+   </head>
+</html>
+<body>
+   <header class="top_head" id="top_head_landing_page">
+      <video autoplay muted loop playsinline class="banner-video">
+         <source  src="images/Comp 1_1.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+      <div class="button_wrapper" >
+         <div class="button_wrapper_left">
+            <a id="home_button" class="header_button" href="/index.html"> 
+            <img class="home_button_img"src="images/HomeButton.png">
+            </a>
+            <a id="instagram_button" class="header_button" href="https://www.instagram.com/turquoiseoctober_">
+            <img id="instagram_image" class="home_button_img" src="images/Instagram.png">
+            </a>
+            <a id="about_button" href="/about.html" class="header_button">
+            <img src="images/AboutMeButton.png" class="home_button_img"> 
+            </a>
+         </div>
+         <div class="button_wrapper_left">
+            <a id="top20_button" class="header_button" href="top20.html">
+            <img id="top20_image" class="home_button_img" src="images/top20.png">
+            </a>
+            <form name="searchForm" onsubmit="search()"  id="searchForm">
+               <input id="search_bar" placeholder="search" type="text">
+            </form>
+         </div>
+      </div>
+      <img class="header_logo" src="images/Logo.png">
+   </header>
+   <div class="photo_grid_wrapper" id="album_grid_wrapper">
+      <div class="photo_grid" id="photo_grid_bottom"></div>
+      <div class="photo_grid" id="photo_grid_top"></div>
+   </div>
+</body>
+</html>
